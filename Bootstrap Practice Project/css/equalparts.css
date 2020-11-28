@@ -1,0 +1,241 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1f1f1f;
+  line-height: 28px;
+}
+
+.navbar {
+  background-color: rgb(250, 246, 236);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(31, 31, 31);
+}
+
+.text-color {
+  color: rgb(31, 31, 31);
+}
+
+h1 {
+  font-family: MotterCorpusStd-Condensed, Impact, sans-serif;
+  color: #f09099;
+}
+
+.banner {
+  background-image: url(../images/EP-D-Home-ATF-2x-s.jpg);
+  background-size: cover;
+  width: 100%;
+  /* width: 1349px; */
+  height: 674.5px;
+  position: relative;
+}
+
+.banner .container {
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /* font-family: Relative-medium-pro, Courier, sans-serif; */
+}
+
+.banner .container h1 {
+  font-size: 55px;
+}
+
+.icon-shopping-cart {
+  width: 20px;
+  height: 20px;
+  color: black;
+  fill: currentcolor;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 0;
+  padding: 15px;
+}
+
+.btn-dark {
+  background-color: black;
+}
+
+h2 {
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+
+.bg-grey {
+  background-color: #faf6ec;
+}
+
+.sec1 img {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.sec1 .card {
+  width: 19rem;
+}
+
+.sec2 {
+  background-color: rgb(208, 215, 212);
+}
+
+.sec2 .card {
+  width: 15rem;
+}
+
+.sec2 .card,
+.sec2 .card img {
+  border-radius: 0;
+  position: relative;
+}
+
+.sec2_box {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 24px;
+  width: 80px;
+  position: absolute;
+  top: 7%;
+  left: 12%;
+}
+
+.sec2 .box1 {
+  background-color: rgb(96, 153, 124);
+  color: white;
+}
+
+.sec2 .box2 {
+  background-color: white;
+  color: black;
+}
+
+.sec2 .box3 {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.sec2 p,
+.sec5_2 p {
+  line-height: 24px;
+  font-size: 14px;
+  color: rgb(31, 31, 31);
+}
+
+.sec3 img {
+  width: 60px;
+}
+
+.sec4_1 img {
+  width: 505.83px;
+  height: 337.22px;
+  margin: 2rem 0;
+}
+
+.sec4_1 .card {
+  background-color: rgb(250, 246, 236);
+  margin: 6rem;
+  text-align: left;
+  width: 25rem;
+}
+
+.sec5_1 {
+  background-image: url(../images/EP-D-01-Home-Fullwidth-2x.jpg);
+  background-size: cover;
+  width: 100%;
+  /* width: 1349px; */
+  height: 505.88px;
+}
+
+.sec5_2 img {
+  width: 113.83px;
+}
+
+.sec5_2 .card {
+  background-color: rgb(250, 246, 236);
+  width: 18rem;
+}
+
+.icon-arrow-left,
+.icon-arrow-right {
+  width: 40px;
+  height: 40px;
+  color: white;
+  fill: currentcolor;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.svgBox {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50% 50%;
+  text-align: center;
+  position: relative;
+}
+
+.sec6 span {
+  border-bottom: 1px dashed rgb(31, 31, 31);
+  font-size: 14px;
+}
+
+#sec6_carousel {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  margin: 0 auto 0;
+  overflow: hidden;
+}
+
+#sec6_carousel ul {
+  position: absolute;
+  left: 0;
+}
+
+#sec6_carousel ul li {
+  list-style: none;
+  width: 280px;
+  float: left;
+  height: 280px;
+  margin-right: 50px;
+}
+
+#sec6_carousel ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec7 img {
+  width: 50px;
+}
+
+.sec8 {
+  background-color: #1f1f1f;
+}
+
+.sec8 li,
+.sec8 p {
+  background-color: #1f1f1f;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(170, 170, 170);
+}
+
+.sec8 .card-dark {
+  width: 15rem;
+}
+
+@media (max-width: 767.98px) {
+  .banner .container {
+    top: 30%;
+    left: 20%;
+  }
+}
