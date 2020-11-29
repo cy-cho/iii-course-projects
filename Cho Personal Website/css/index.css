@@ -305,27 +305,51 @@ article h3 {
   margin: 0 auto;
 }
 
-.portfolio-1 .card-img-wrap:hover {
-  /* transform: scale(1.2); */
-}
-
 /* 隱藏Y軸scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
 
-.portfolio-1 .card img {
+.portfolio-1 .card-img-slide {
   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-1 img {
+  width: 100%;
+  object-fit: contain;
 }
 
 #webRWD {
   width: 40%;
+  margin: 0 auto;
 }
 
 .portfolio-1 .card p {
   width: 100%;
   font-size: 0.9rem;
   text-align: left;
+}
+
+.fa-caret-left {
+  position: absolute;
+  font-size: 30px;
+  color: #f8f8f8;
+  top: 30%;
+  left: 10px;
+  display: none;
+}
+
+.fa-caret-right {
+  position: absolute;
+  font-size: 30px;
+  color: #f8f8f8;
+  top: 30%;
+  right: 10px;
 }
 
 footer {
